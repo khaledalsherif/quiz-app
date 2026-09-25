@@ -99,8 +99,9 @@ export default function App() {
   ] = useReducer(reducer, initialState);
 
   useEffect(function () {
-    const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:4000/data";
-    const apiKey = import.meta.env.VITE_JSONBIN_KEY;
+    const apiUrl =
+      import.meta.env.VITE_JSON_API || "http://localhost:4000/data";
+    const apiKey = import.meta.env.VITE_JSON_API_KEY;
 
     const headers = apiKey ? { "X-Access-Key": apiKey } : {};
 
