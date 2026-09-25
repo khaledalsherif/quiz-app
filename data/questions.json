@@ -1,0 +1,33 @@
+{
+  "data": {
+    "record": {
+      "quizes": {
+        "quizTitle": "Quantitative Aptitude Quiz",
+        "totalQuestions": 3,
+        "questions": [
+          {
+            "id": 1,
+            "questionText": "A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
+            "options": ["120 m", "240 m", "300 m", "None of these"],
+            "correctOptionIndex": 1,
+            "explanation": "Speed of train = 54 km/hr = 54 * (5/18) = 15 m/s. Length of train = Speed * Time to cross man = 15 * 20 = 300 m. Total distance to cross platform = Speed * Time = 15 * 36 = 540 m. Length of platform = Total distance - Length of train = 540 - 300 = 240 m."
+          },
+          {
+            "id": 2,
+            "questionText": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. What is the actual distance travelled by him?",
+            "options": ["50 km", "56 km", "70 km", "80 km"],
+            "correctOptionIndex": 0,
+            "explanation": "Let the actual distance travelled be x km. Then, x/10 = (x + 20)/14. Solving this gives 14x = 10x + 200, so 4x = 200, and x = 50 km."
+          },
+          {
+            "id": 3,
+            "questionText": "Which of the following is a prime number?",
+            "options": ["91", "87", "89", "93"],
+            "correctOptionIndex": 2,
+            "explanation": "89 is a prime number. 91 = 7*13, 87 = 3*29, 93 = 3*31."
+          }
+        ]
+      }
+    }
+  }
+}
