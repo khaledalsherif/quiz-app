@@ -110,11 +110,22 @@ export default function App() {
         return res.json();
       })
       .then((data) => {
+        console.log("data=> ", data.record.quizes);
         dispatch({ type: "receivedData", payload: data.record.quizes });
       })
       .catch((err) => dispatch({ type: "error", payload: err.message }));
   }, []);
-
+  console.log({
+    status,
+    quizTitle,
+    totalQuestions,
+    totalScore,
+    fullScore,
+    questions,
+    index,
+    answer,
+    error,
+  });
   return (
     <div className="app bg-gray-300 min-h-screen p-4">
       <Header>{quizTitle || "Exam Page"}</Header>
