@@ -2,7 +2,7 @@
 
 A responsive, dynamic Quiz Application built with **React**, **Tailwind CSS**, and **JSONBin** for remote state/data management. It features dynamic questions, instant scoring, automated feedback, and seamlessly supports both offline development and cloud deployment.
 
-🚀 **Live Demo:** [View Live App on Vercel](https://quiz-app-khaled-dev.vercel.app/)
+🚀 **Live Demo:** [View Live App on Vercel](https://quiz-app-khaki-beta-77.vercel.app/)
 
 ---
 
